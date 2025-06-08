@@ -1,0 +1,102 @@
+[
+    {
+        "name": "base",
+        "prompt": "{prompt}",
+        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail,unfinished, out of focus, worst aesthetic,worst quality,old,early,low quality,bad quality,lowres,signature"
+    },
+    {
+        "name": "modern_anime",
+        "prompt": "modern anime image of {prompt}, in polished modern anime style. The scene features carefully balanced anime composition. Details are rendered with professional anime production quality",
+        "negative_prompt": "old anime style, rough lines, inconsistent quality, amateur animation, poor shading, sketchy artwork, flat colors"
+    },
+    {
+        "name": "makoto_shinkai",
+        "prompt": "screencap from movie of makoto shinkai about {prompt} in makoto shinkai anime style, in Makoto Shinkai's art style, makoto shinkai movies screencap",
+        "negative_prompt": "flat lighting, basic backgrounds, missing atmospheric effects, harsh shadows, simple color palette, lack of detail"
+    },
+    {
+        "name": "digital_art",
+        "prompt": "digital art image of {prompt}, rendered as refined digital artwork. The scene demonstrates masterful control of light and shadow, with rich color harmonies and precise detail work. Technical excellence shows in every aspect, from texture rendering to composition",
+        "negative_prompt": "basic digital filters, amateur effects, poor edge quality, unrefined lighting, low resolution, flat rendering"
+    },
+    {
+        "name": "photorealistic",
+        "prompt": "create {prompt} with photographic realism. Make it indistinguishable from a professional photograph with perfect focus and expert composition. Include natural lighting and authentic textures. Render it in ultra-high definition",
+        "negative_prompt": "artistic interpretation, painterly style, cartoon features, animated look, artificial appearance"
+    },
+    {
+        "name": "oil_painting",
+        "prompt": "oil painting style, {prompt}, detailed oil painting, masterful brushwork, rich colors, traditional oil painting techniques, detailed texture, gallery quality artwork",
+        "negative_prompt": "digital art, smooth, clean edges, photography, flat colors"
+    },
+    {
+        "name": "vector_art",
+        "prompt": "vector art style, {prompt}, clean minimal lines, flat colors, sharp edges, geometric shapes, modern vector illustration, scalable graphics style",
+        "negative_prompt": "noisy, grainy, detailed texture, painterly, organic brushstrokes, photorealistic"
+    },
+    {
+        "name": "concept_art",
+        "prompt": "{prompt}, visualized as a polished concept art piece worthy of a AAA production. The scene demonstrates masterful perspective and atmospheric depth. Environmental storytelling is enhanced through sophisticated lighting and careful attention to scale. Every element serves the overall design vision",
+        "negative_prompt": "amateur composition, flat depth, basic rendering, incorrect perspective, unrefined design elements"
+    },
+    {
+        "name": "wlop",
+        "prompt": "image of wlop painting image of {prompt} in WLOP artist art style. Capture their signature atmosphere with soft, glowing lighting and elegant character design. Include dramatic mood and sophisticated color palette",
+        "negative_prompt": "harsh contrast, flat lighting, simple composition, cartoonish look, basic rendering"
+    },
+    {
+        "name": "hollywood",
+        "prompt": "cinematic hollywood style, {prompt}, movie quality, professional cinematography, dramatic lighting, anamorphic lens, high budget production value, 8k resolution",
+        "negative_prompt": "amateur, low budget, poor lighting, blurry, grainy film"
+    },
+    {
+        "name": "retro_anime",
+        "prompt": "in style of early 2000's anime image of {prompt} . slightly gritty, anime like that is higher-budget",
+        "negative_prompt": "modern, 3d, digital art, photorealistic"
+    },
+    {
+        "name": "ui_design",
+        "prompt": "Amazing and creative Ui of {prompt}, clean modern interface, professional app design, minimalist UI elements, modern",
+        "negative_prompt": "cluttered, complex, noisy background, artistic, painterly"
+    },
+    {
+        "name": "glossy_anime",
+        "prompt": "anime with glossy asthetic image of {prompt}, rendered in high-glossy anime style with pristine finish. brilliant highlights enhance depth. Colors are rich and saturated with polished",
+        "negative_prompt": "rough textures, matte finish, flat shading, dull colors, grainy look"
+    },
+    {
+        "name": "romanticism",
+        "prompt": "romanticism image of {prompt}, painted in Romantic art style with dramatic emotional depth. Rich, warm colors blend seamlessly. Composition emphasizes beauty and sentiment with masterful classical technique",
+        "negative_prompt": "geometric, minimalist, harsh, modern, clinical, artificial looking"
+    },
+    {
+        "name": "gothic_anime",
+        "prompt": "gothic style image of {prompt}, illustrated in dark gothic anime style. Intricate details. Deep shadows and rich darker tones create mysterious atmosphere",
+        "negative_prompt": "bright cheerful, simple designs, casual style, flat lighting, pastel colors"
+    },
+    {
+        "name": "game_concept",
+        "prompt": "game concept image of {prompt}, designed as professional game concept art. Strong focal points with clear visual hierarchy. Balanced composition suitable for interactive environments",
+        "negative_prompt": "photorealistic, abstract, sketchy, unfinished, poorly composed"
+    },
+    {
+        "name": "meme",
+        "prompt": "internet meme of {prompt}, styled as an internet meme. Bold, simple composition with exaggerated features. Clear focal point with impact font styling",
+        "negative_prompt": "complex artwork, subtle details, serious tone, traditional art style"
+    },
+    {
+        "name": "cctv",
+        "prompt": "image of cctv {prompt}, captured in surveillance camera style. High contrast monochromatic image with subtle digital artifacts. Wide-angle perspective with timestamp aesthetic",
+        "negative_prompt": "artistic effects, vivid colors, studio lighting, high detail, sharp focus"
+    },
+    {
+        "name": "slice_of_life_anime",
+        "prompt": "slice of life anime of {prompt}, illustrated in gentle slice-of-life anime style. relaxing color palette with naturalistic lighting. Subtle expressions and careful attention to everyday details",
+        "negative_prompt": "extreme action, harsh contrast, oversaturated colors, heavy effects"
+    },
+    {
+        "name": "grand_scale_fantasy",
+        "prompt": "grand scale fantasy image of {prompt}, realized in epic fantasy art style. Majestic scale with atmospheric depth. Rich detail in both grand vistas and intricate elements",
+        "negative_prompt": "mundane, simplistic, realistic, modern, minimalist"
+    }
+]
