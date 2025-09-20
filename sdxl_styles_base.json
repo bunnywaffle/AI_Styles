@@ -1,197 +1,147 @@
 [
     {
-        "name": "base",
-        "prompt": "{prompt}",
-        "negative_prompt": "low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. speech text. watermark. text bubbles.speech bubbles."
+        "name": "Better",
+        "prompt": "High quality {prompt} ",
+        "negative_prompt": "boring, simple, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, underexposed, , noise:1.5)"
+    },
+    {
+        "name": "Photorealistic",
+        "prompt": "An ultra-detailed, hyperrealistic photograph of {prompt}. Shot on a Canon EOS R5 with a 50mm f/1.8 lens, capturing a shallow, natural depth of field. Lighting is a three-point studio setup creating soft, flattering shadows. The image features extreme detail, perfect exposure, and professional cinematic color grading. Every texture is sharp and distinct, from skin pores to fabric weave. Masterful composition follows the rule of thirds.",
+        "negative_prompt": "CGI, 3d render, cartoon, painting, drawing, sketch, blurry, out of focus, overexposed, underexposed, pixelated, cropped, amateur, unrealistic, bad anatomy, mutated hands, extra limbs, disfigured, deformed, jpeg artifacts, watermark, signature, text, username, oversaturated, flat lighting, (overexposed, oversaturated, blur, noise:1.5)"
+    },
+    {
+        "name": "digital art",
+        "prompt": "A stunning digital art masterpiece of {prompt}. Professional digital painting with impeccable brushwork, trending on ArtStation",
+        "negative_prompt": "amateur, sketch, low resolution, jpeg artifacts, blurry, flat colors, messy, crude rendering, lack of depth, poorly detailed, bad composition, watermark, signature, text, bad anatomy, mutated hands, extra fingers, deformed, disfigured, cropped, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "oil painting",
+        "prompt": "A traditional oil painting of {prompt} in the style of the Old Masters. Features thick, impasto brushstrokes creating rich, visible textures on a canvas surface. The lighting is reminiscent of chiaroscuro, with deep shadows and warm highlights. The color palette is deep and saturated, giving it a timeless, classical feel.",
+        "negative_prompt": "digital art, photograph, 3d render, faded colors, smudged, low texture, unrefined, flat, blurry, watermark, signature, text, bad anatomy, deformed, disfigured, poor proportions, cropped, modern, oversaturated, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "wlop art",
+        "prompt": "wlop's artwork of {prompt} . style of WLOP. in soft light, with delicate, painterly, and an elegant composition. (Soft highlights, harmonious tones, nutral cool tone, dynamic lighting.)",
+        "negative_prompt": "harsh lines, oversaturated colors, rough textures, amateur, flat shading, cartoon, simple, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, clashing colors, no atmosphere, cropped, (overexposed, cartoon, oversaturated, blur, noise:2)"
     },
     {
         "name": "anime",
-        "prompt": "anime style image of {prompt}. expressive, dynamic composition, high quality anime aesthetic, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "blurry, low quality, deformed, distorted, bad anatomy, low resolution, pixelated, noisy, grainy, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
-    },
-    {
-        "name": "Enhanced",
-        "prompt": "aesthetic detailed image of {prompt} . (Enhanced image, masterful composition), with a focus on depth and clarity, polished and refined details",
-        "negative_prompt": "anatomically inaccurate. low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. speech text. watermark. text bubbles.speech bubbles. worst aesthetic"
-    },
-    {
-        "name": "modern_anime",
-        "prompt": "modern anime image of {prompt} . in polished modern anime style. anime features carefully balanced anime composition. professional anime production quality",
-        "negative_prompt": "old anime style. low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. speech text. watermark. text bubbles.speech bubbles. worst aesthetic. "
-    },
-    {
-        "name": "makoto_shinkai",
-        "prompt": "makoto shinkai anime image of {prompt}. makoto shinkai anime movie style with dynamic flat anime cel shading, anime shading, rimlight, glare, shine on surface, everything is weathered, super detailed background, ens flares and beams, ens flares and beams,  reflecting light",
-        "negative_prompt": "low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. watermark, thick lines, crop, black border, border"
-    },
-    {
-        "name": "digital_art",
-        "prompt": "image of digital art of {prompt} . art with intricate details",
-        "negative_prompt": "blurry, deformed, distorted, bad anatomy, noisy, (mangled limbs), (multiple limbs). low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. speech text. watermark. text bubbles.speech bubbles."
-    },
-    {
-        "name": "realistic",
-        "prompt": "image of {prompt}. in ultra-high definition, realistic, image takes from dslr camera, sharp focus.",
-        "negative_prompt": "anime, catroon, blurry, low quality, deformed, distorted, low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. speech text. watermark."
-    },
-    {
-        "name": "oil_painting",
-        "prompt": "image of oil painting style {prompt} . detailed oil painting, rich colors, traditional oil painting techniques, detailed texture, gallery quality artwork",
-        "negative_prompt": "blurry, deformed, distorted, bad anatomy, low resolution, noisy, grainy, mangled limbs, multiple limbs, distorted proportions, unrealistic anatomy, oversaturated colors, low detail, unfinished, out of focus, signature"
-    },
-    {
-        "name": "vector_art",
-        "prompt": "vector art style, {prompt}, clean minimal lines, flat colors, sharp edges, geometric shapes, modern vector illustration, scalable graphics style",
-        "negative_prompt": "noisy, grainy, detailed texture, painterly, organic brushstrokes, photorealistic"
-    },
-    {
-        "name": "concept_art",
-        "prompt": "concept art of {prompt}. visualized as a polished concept art demonstrates masterful perspective and atmospheric depth",
-        "negative_prompt": "bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail,unfinished, out of focus, worst aesthetic,worst quality,early,low quality,bad quality,lowres,signature, cropped"
-    },
-    {
-        "name": "wlop",
-        "prompt": "painting art by artist wlop of {prompt} . artist WLOP painting, dramatic chiaroscuro lighting, intricate details, digital painting, high detail, atmospheric, solemn mood, less detailed painting",
-        "negative_prompt": "deformed, bad anatomy, noisy, oversaturated colors, low quality. blurred. low details. censored. blur. motion blur. low details. worst quality. missing limbs. bad anatomy. low resolution. unfinished. jpeg artifacts. blush. subtitles. speech text. watermark."
-    },
-    {
-        "name": "hollywood",
-        "prompt": "cinematic hollywood Screencap of {prompt}. movie quality, professional cinematography, dramatic lighting, anamorphic lens, high budget production value, 8k resolution",
-        "negative_prompt": "blurry, deformed, distorted, bad anatomy, low resolution, noisy, grainy, mangled limbs, multiple limbs, distorted proportions, unrealistic anatomy, oversaturated colors, low detail, unfinished, out of focus, signature"
-    },
-    {
-        "name": "retro_anime",
-        "prompt": "image of early 2000's anime style of {prompt} . anime of early 2000's anime vibe, clear, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "modern, blurry, deformed, distorted, bad anatomy, noisy, grainy, mangled limbs, multiple limbs, distorted proportions, unrealistic anatomy, oversaturated colors, low detail, signature, thick lines"
-    },
-    {
-        "name": "ui_design",
-        "prompt": "Amazing and creative Ui of {prompt}, clean modern interface, professional app design, minimalist UI elements, modern",
-        "negative_prompt": "cluttered, complex, noisy background, artistic, painterly"
-    },
-    {
-        "name": "glossy_anime",
-        "prompt": "anime with glossy asthetic image of {prompt}, rendered in high-glossy anime style with pristine finish. brilliant highlights enhance depth. Colors are rich and saturated with polished, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail,unfinished, out of focus, worst aesthetic, worst quality, old,early, low quality, bad quality, lowres, signature, thick lines"
-    },
-    {
-        "name": "romanticism",
-        "prompt": "romanticism image of {prompt}, painted in Romantic art style with dramatic emotional depth. Rich, warm colors blend seamlessly. Composition emphasizes beauty and sentiment with masterful classical technique",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail,unfinished, out of focus, worst aesthetic, worst quality, old,early, low quality, bad quality, lowres, signature"
-    },
-    {
-        "name": "gothic_anime",
-        "prompt": "gothic style image of {prompt} . illustrated in dark gothic anime style. Intricate details. Deep shadows and rich darker tones create mysterious atmosphere, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail,unfinished, out of focus, worst aesthetic, worst quality, old,early, low quality, bad quality, lowres, signature, thick lines"
-    },
-    {
-        "name": "game_concept",
-        "prompt": "game concept image of {prompt}, designed as professional game concept art. Strong focal points with clear visual hierarchy. Balanced composition suitable for interactive environments",
-        "negative_prompt": "photorealistic, abstract, sketchy, unfinished, poorly composed"
-    },
-    {
-        "name": "meme",
-        "prompt": "internet meme of {prompt}, styled as an internet meme. Bold, simple composition with exaggerated features. Clear focal point with impact font styling",
-        "negative_prompt": "complex artwork, subtle details, serious tone, traditional art style"
-    },
-    {
-        "name": "cctv",
-        "prompt": "image of cctv {prompt}, captured in surveillance camera style. High contrast monochromatic image with subtle digital artifacts. Wide-angle perspective with timestamp aesthetic",
-        "negative_prompt": "artistic effects, vivid colors, studio lighting, high detail, sharp focus"
-    },
-    {
-        "name": "slice_of_life_anime",
-        "prompt": "modern slice of life anime of {prompt} . in gentle slice-of-life anime. relaxing color palette, slice of life anime asthetic.",
-        "negative_prompt": "harsh, blurry, noise, multiple limbs, distorted, distorted, low resolution, pixelated, noisy, grainy, oversaturated, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, early, low quality, bad quality, lowres, signature, thick lines"
-    },
-    {
-        "name": "grand_scale_fantasy",
-        "prompt": "grand scale fantasy image of {prompt}, realized in epic fantasy art style. Majestic scale with atmospheric depth. Rich detail in both grand vistas and intricate elements",
-        "negative_prompt": "mundane, modern, minimalist, noise, grainy, low detail, flat colors, blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy"
-    },
-    {
-        "name": "cyberpunk",
-        "prompt": "amazing artwork of cyberpunk of {prompt}. in futuristic cyberpunk setting. gritty urban environment with complex modern lighting, with modern urban architecture.",
-        "negative_prompt": "naturalistic, noise, soft colors, traditional art style, low detail, signature, blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy"
-    },
-    {
-        "name": "Detailed Anime",
-        "prompt": "detailed anime art of {prompt} . multi layed anime shading, complexly detailed anime art with complex anime shading, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "blurry, low quality, deformed, bad anatomy, low resolution, pixelated, noisy, harsh contrast, low detail,unfinished, out of focus,early,low quality,bad quality,lowres,signature, cropped, mangled limbs, distorted proportions, thick lines"
-    },
-    {
-        "name": "anime_screencap",
-        "prompt": "high quality anime screencap of {prompt} . with high quality anime screencap, with amazing modern quality, with amazing anime screencap asthetic",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature, thick lines"
-    },
-    {
-        "name": "anime wallpaper",
-        "prompt": "anime wallpaper of {prompt} . with amazing anime wallpaper, complex shading, with amazing lighting and quality with amazing anime wallpaper asthetic, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "simple, noise, minimalist, grainy, low detail, flat colors, blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy"
-    },
-    {
-        "name": "photography",
-        "prompt": "detailed photography of {prompt} . captured in professional photography style. High dynamic range with natural lighting. Rich textures and authentic details. Expert composition with balanced framing",
-        "negative_prompt": "artistic effects, painterly style, cartoon features, animated look, artificial appearance"
-    },
-    {
-        "name": "lofi_anime",
-        "prompt": "lofi anime image of {prompt} . in lofi anime style. Soft, relaxing and cozy colors with a nostalgic atmosphere. Gentle lighting and relaxed composition. Subtle imperfections enhance the handmade feel, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "harsh contrast, bright colors, sharp lines, modern anime style, high detail, distorted, low resolution, pixelated, noisy, grainy, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "prompt": "anime image of {prompt}, as if produced by a top-tier animation studio like Ufotable or Kyoto Animation. Features exceptionally clean and detailed linework, vivid but balanced colors. Dynamic lighting effects, including lens flares and particle effects, enhance the scene. Characters have large, expressive eyes and a dynamic pose, set within a well-composed frame.",
+        "negative_prompt": "blurry, off-model, low detail, amateur, messy lines, inconsistent style, bad proportions, mutated hands, extra limbs, disfigured, western cartoon, 3d render, painting, watermark, signature, text, dull colors, static pose, (overexposed, oversaturated, blur, noise:2)"
     },
     {
         "name": "ghibli",
-        "prompt": "ghibli style image of {prompt} . in Studio Ghibli's anime movie style. Soft, whimsical atmosphere with rich colors and detailed backgrounds. Characters are expressive with a sense of wonder, studio ghibli movie screencap, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "prompt": "image in style of Studio Ghibli's anime, {prompt} in the signature style of Studio Ghibli, hand-painted masterpiece and intricate detail",
+        "negative_prompt": "photorealistic, 3d render, CGI, harsh lighting, low detail, empty background, watermark, signature, text, bad anatomy, deformed, disfigured, violent, scary, (overexposed, oversaturated, blur, noise:1.5)"
     },
     {
-        "name": "junji_ito",
-        "prompt": "junji ito horror manga style image of {prompt}. Highly detailed black and white illustration, intense linework, unsettling atmosphere, surreal horror elements, dramatic shading, psychological tension, inspired by Junji Ito's manga art.",
-        "negative_prompt": "colorful, cheerful, cartoonish, low detail, soft lines, unfinished, low resolution, pixelated, noisy, grainy, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature, thick lines"
+        "name": "makoto shinkai anime",
+        "prompt": "screencap image from makoto shinkai's anime of {prompt} . in style of Makoto Shinkai anime. The environment is hyper-detailed, realistic lighting with anime cell shading",
+        "negative_prompt": "cgi, 3d, flat, watermark, signature, text, (bad anatomy, mutated hands, disfigured, deformed, multple frame, white border, border, cropped), poorly composed, no atmosphere, (overexposed, oversaturated, blur, noise:1.5)"
     },
     {
-        "name": "tsutomu_nihei",
-        "prompt": "tsutomu nihei manga style image of {prompt}. Highly detailed architectural environments, vast dystopian sci-fi structures, minimalistic characters, heavy use of black and white contrast, intricate linework, atmospheric perspective, inspired by Tsutomu Nihei's works like Blame! and Knights of Sidonia.",
-        "negative_prompt": "colorful, cheerful, organic landscapes, crowded scenes, soft lines, unfinished, low detail, low resolution, pixelated, noisy, grainy, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature, thick lines"
+        "name": "hollywood",
+        "prompt": "A cinematic still of {prompt} from a Hollywood blockbuster. Shot on an IMAX camera with a wide anamorphic lens, creating characteristic lens flares and bokeh. The lighting is dramatic and high-contrast, designed to sculpt the subject and create mood. Professional color grading (teal and orange) is applied. The image has a shallow depth of field, high dynamic range, and pristine, tack-sharp focus.",
+        "negative_prompt": "amateur, low budget, flat lighting, poorly composed, student film, blurry, grainy, jpeg artifacts, watermark, text, oversaturated, bad cgi, poor special effects, disfigured, deformed."
     },
     {
-        "name": "painterly_anime",
-        "prompt": "image of painterly anime about {prompt} . painterly trxtured anime, painterly textured anime with soft brush strokes, dynamic flat anime cel shading, anime shading",
-        "negative_prompt": "harsh lines, flat colors, modern anime style, high detail, distorted, low resolution, pixelated, noisy, grainy, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature, anatomy errors, unrealistic proportions, thick lines"
+        "name": "logo",
+        "prompt": "A minimalist vector logo for {prompt}. The design is clean, modern, and easily scalable. It uses bold geometric shapes and a limited, impactful color palette. The logo is memorable and creates a strong visual identity suitable for branding. Presented on a plain white background.",
+        "negative_prompt": "cluttered, rasterized, pixelated, complex, detailed, illustration, photograph, 3d, gradient, messy, outdated, watermark, signature, text, bad kerning."
     },
     {
-        "name": "greg_rutkowski",
-        "prompt": "greg rutkowski style image of {prompt} . in the style of Greg Rutkowski, with fantasy art, detailed fantasy art, fantasy art with amazing lighting and quality",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "name": "game icon",
+        "prompt": "A striking and polished game icon for {prompt}. The design is simple, stylized, and easily recognizable at small sizes. It features clean, bold lines, vibrant colors, and a subtle drop shadow to give it depth. The icon is framed within a rounded square.",
+        "negative_prompt": "overly detailed, complex, blurry, pixelated, messy, unbalanced, dull colors, illustration, photograph, text, watermark, bad composition."
     },
     {
-        "name": "korean_comic",
-        "prompt": "korean web comic style image of {prompt} . in the style of Korean webtoons, with clean lines, vibrant colors, and expressive characters. The composition is dynamic and engaging, capturing the essence of modern Korean comic art",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "name": "game concept art",
+        "prompt": "Professional concept art of {prompt} for a AAA video game. The environment is highly detailed, telling a story through its design. The lighting is dynamic and atmospheric, with volumetric fog and god rays creating a dramatic mood. The composition follows the rule of thirds, drawing the eye to an epic-scale focal point. Textures are gritty and realistic.",
+        "negative_prompt": "rough sketch, unpolished, simplistic, amateur, flat shading, blurry, low detail, poorly composed, watermark, signature, text, bad anatomy, deformed, disfigured, bright, cheerful."
+    },
+    {
+        "name": "matte painting",
+        "prompt": "A meticulously crafted, matte painting of {prompt} for a film production. The scene demonstrates a masterful sense of scale, depth, and atmosphere, with a clear distinction between foreground, midground, and background elements. The environment is hyper-detailed and seamlessly integrated. The lighting and composition are of cinematic quality.",
+        "negative_prompt": "flat, 2d, unconvincing perspective, poorly blended, low resolution, blurry, watermark, signature, text, cartoonish, amateur, generic."
+    },
+    {
+        "name": "glossy anime",
+        "prompt": "image of glossy modern anime art {prompt} . with polished, glossy cel shading. Features crisp,  , and dynamic cel shading with specular highlights.",
+        "negative_prompt": "dull, matte finish, poorly shaded, low quality, rough textures, muted colors, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, old style, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "manga",
+        "prompt": "A sharply detailed black and white manga panel of {prompt}. Features professional, clean line art, high-contrast screentones for shading, and expressive characters true to classic shonen or seinen manga style. The composition is dynamic, with clear action lines and paneling.",
+        "negative_prompt": "color, blurry, low contrast, unrefined, amateurish, inconsistent line work, watermark, signature, text, bad anatomy, disfigured, deformed, photo, painting, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "manhwa",
+        "prompt": "image of full-color manhwa style of {prompt} in a vertical scroll format. Features clean, sharp lines, modern character designs with fashionable attire, and vibrant, cell-shaded coloring. The style is edgy and dynamic, suitable for a webtoon.",
+        "negative_prompt": "black and white, bland, poorly structured, low detail, imbalanced, watermark, signature, text, bad anatomy, disfigured, deformed, old manga style, painting, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "pastel anime",
+        "prompt": "image of soft pastel anime {prompt} . gentle, desaturated color palette, airy compositions, and delicate, thin linework. The lighting is soft and diffuse, evoking a dreamy, whimsical, and cute 'kawaii' quality.",
+        "negative_prompt": "harsh, oversaturated, dark, low detail, high contrast, thick lines, watermark, signature, text, bad anatomy, disfigured, deformed, scary, sharp, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "lofi anime",
+        "prompt": "image of detailed lofi anime {prompt} . with a relaxed tones, relaxed, relaxing tones, nostalgic, crisp anime shading, peaceful and calm, embodying the lofi aesthetic, comfort, and tranquility",
+        "negative_prompt": "bright, sharp lines, watermark, signature, text, bad anatomy, disfigured, deformed, action scene, (overexposed, oversaturated, blur, noise, distored hand, distorted figher and face :1.5)"
+    },
+    {
+        "name": "soft oil painting",
+        "prompt": "A soft, gentle oil painting of {prompt} in an impressionistic style. Exudes warmth through delicate color blending, visible but refined brushwork, and a focus on light and atmosphere rather than sharp details",
+        "negative_prompt": "harsh, sharp focus, photorealistic, digital, coarse strokes, muddled colors, watermark, signature, text, bad anatomy, deformed, disfigured, dark, scary, (overexposed, oversaturated, blur, noise:2)"
     },
     {
         "name": "horror",
-        "prompt": "creepy and unsettling horror image of {prompt} . in horror style, with eerie atmosphere, unsettling details, and a sense of dread. The composition is designed to evoke fear and tension",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "prompt": "A terrifying psychological horror scene of {prompt}. The atmosphere is nightmarish, captured with cinematic low-key lighting that creates deep, menacing shadows. The composition is unsettling, using Dutch angles and negative space to build dread. Hyperdetailed textures reveal decay and grime. The color palette is desaturated and eerie.",
+        "negative_prompt": "bright, cheerful, friendly, cute, cartoon, funny, safe, welcoming, well-lit, watermark, signature, text, bad anatomy, not scary, oversaturated, mutated hands, extra limbs, disfigured, deformed."
     },
     {
-        "name": "manga_panel",
-        "prompt": "manga panel about {prompt} . in manga style, with dynamic composition, expressive characters, and detailed backgrounds. The panel captures the essence of manga storytelling with clear action and emotion",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
-    }, 
-    {
-        "name": "henry_scott_tuke",
-        "prompt": "henry scott tuke style image of {prompt} . in the style of Henry Scott Tuke, with impressionistic brushwork, vibrant colors, and a focus on light and shadow. The composition captures the essence of Tuke's maritime and figure studies",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "name": "dslr photography",
+        "prompt": "An ultra high-definition DSLR photograph of {prompt}, shot with a prime lens for exquisite clarity and creamy bokeh. The lighting is natural and flattering, highlighting lifelike colors and textures. The focus is tack-sharp on the subject.",
+        "negative_prompt": "blurry, out of focus, grainy, motion blur, poorly composed, low resolution, watermark, signature, text, bad anatomy, disfigured, deformed, flat lighting, phone camera quality."
     },
     {
-        "name": "Neo-Noir",
-        "prompt": "  Neo-Noir image of {prompt} . gritty atmosphere with urban fantasy setting vibe ",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "name": "pov",
+        "prompt": "A dynamic point-of-view photograph of {prompt}. The perspective immerses the viewer directly into the scene, showing hands or arms interacting with the environment. The image uses a wide-angle lens to create a sense of presence and depth, with realistic motion blur on the periphery.",
+        "negative_prompt": "static, third-person view, flat, poorly framed, detached, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, unrealistic."
     },
     {
-        "name": "Soft Painting",
-        "prompt": "soft painting of {prompt} . soft rendering and atmospheric perspective. detailed, textured brushwork for foreground elements,smoother transitions, Emphasize a grand, and somewhat painterly feel",
-        "negative_prompt": "blurry, low quality, deformed, distorted, ugly, bad anatomy, low resolution, pixelated, noisy, grainy, oversaturated colors, harsh contrast, low detail, unfinished, out of focus, worst aesthetic, worst quality, old, early, low quality, bad quality, lowres, signature"
+        "name": "Retro Anime",
+        "prompt": "A 90's anime scene of {prompt} in a retro 1990s style. Features the characteristic cel-shaded animation",
+        "negative_prompt": "modern anime, 4k, crisp, sharp lines, 3d render, photorealistic, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, realistic, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "junji ito manga",
+        "prompt": "An eerie black and white manga panel of {prompt} in the style of Junji Ito. Features disturbing body horror elements, intricate and obsessive cross-hatching, and intense, wide-eyed expressions that convey pure terror. The composition creates a sense of inescapable dread.",
+        "negative_prompt": "color, cute, friendly, safe, simple, low detail, reassuring, sketch, watermark, signature, text, bad anatomy, not scary, painting."
+    },
+    {
+        "name": "photography horror",
+        "prompt": "A spine-chilling found-footage style photograph of {prompt}. The image is dark, grainy, and slightly out of focus, lit only by a harsh camera flash. An eerie, unnerving figure or detail lurks in the deep shadows. The composition is chaotic and unsettling.",
+        "negative_prompt": "studio lighting, well-lit, clear, in focus, professional, staged, safe, friendly, cute, watermark, signature, text, not scary, oversaturated."
+    },
+    {
+        "name": "serene art",
+        "prompt": "A calm and soothing artwork depicting {prompt}. The style is minimalist and characterized by a soft, harmonious color palette, gentle gradients, and subtle textures. The composition is balanced and uncluttered, evoking a deep sense of tranquility and peace.",
+        "negative_prompt": "chaotic, cluttered, harsh colors, high contrast, dark, scary, watermark, signature, text, bad anatomy, disfigured, deformed, oversaturated, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "serene anime",
+        "prompt": "peaceful and serene anime art of {prompt}. Features a gentle, pastel color palette, soft lighting, and a relaxed, harmonious atmosphere. The scene often depicts a quiet, slice-of-life moment in a beautiful, idyllic setting.",
+        "negative_prompt": "action, violence, harsh colors, low detail, conflicting tones, dark, scary, watermark, signature, text, bad anatomy, disfigured, deformed, oversaturated, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "artistic",
+        "prompt": "artistic portrayal of {prompt}. blend of different textures and mediums. It is a bold, imaginative, and thought-provoking piece.",
+        "negative_prompt": "conventional, realistic, boring, simple, literal, photograph, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, noise:2)"
+    },
+    {
+        "name": "Painterly Anime",
+        "prompt": "Anime art, crisp digital painterly brushstrokes {prompt} ",
+        "negative_prompt": "boring, simple, literal, photograph, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, noise:2)"
     }
 ]
