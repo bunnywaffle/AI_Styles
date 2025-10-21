@@ -21,27 +21,27 @@
     },
     {
         "name": "wlop art",
-        "prompt": "wlop's artwork of {prompt} . style of WLOP. in soft light, with delicate, painterly, and an elegant composition. (Soft highlights, harmonious tones, nutral cool tone, dynamic lighting.)",
+        "prompt": "wlop's soft anime like artwork of {prompt} . style of WLOP. in soft painterly light, with delicate, painterly, and an elegant composition. (Soft highlights, harmonious tones, nutral cool tone, dynamic lighting.)",
         "negative_prompt": "harsh lines, oversaturated colors, rough textures, amateur, flat shading, cartoon, simple, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, clashing colors, no atmosphere, cropped, (overexposed, cartoon, oversaturated, blur, noise:2)"
     },
     {
         "name": "anime",
-        "prompt": "anime image of {prompt}, as if produced by a top-tier animation studio like Ufotable or Kyoto Animation. Features exceptionally clean and detailed linework, vivid but balanced colors. Dynamic lighting effects, including lens flares and particle effects, enhance the scene. Characters have large, expressive eyes and a dynamic pose, set within a well-composed frame.",
+        "prompt": "hyper ddetailed anime image of {prompt}, top-tier anime, Dynamic lighting effects, set within a well-composed frame.",
         "negative_prompt": "blurry, off-model, low detail, amateur, messy lines, inconsistent style, bad proportions, mutated hands, extra limbs, disfigured, western cartoon, 3d render, painting, watermark, signature, text, dull colors, static pose, (overexposed, oversaturated, blur, noise:2)"
     },
     {
         "name": "ghibli",
-        "prompt": "image in style of Studio Ghibli's anime, {prompt} in the signature style of Studio Ghibli, hand-painted masterpiece and intricate detail",
+        "prompt": "image in style of Studio Ghibli's anime, {prompt} in the signature style of Studio Ghibli, hand-painted anime masterpiece and intricate detail",
         "negative_prompt": "photorealistic, 3d render, CGI, harsh lighting, low detail, empty background, watermark, signature, text, bad anatomy, deformed, disfigured, violent, scary, (overexposed, oversaturated, blur, noise:1.5)"
     },
     {
         "name": "makoto shinkai anime",
-        "prompt": "screencap image from makoto shinkai's anime of {prompt} . in style of Makoto Shinkai anime. The environment is hyper-detailed, realistic lighting with anime cell shading",
+        "prompt": "image from makoto shinkai's anime of {prompt} . in style of Makoto Shinkai anime, environment is hyper-detailed",
         "negative_prompt": "cgi, 3d, flat, watermark, signature, text, (bad anatomy, mutated hands, disfigured, deformed, multple frame, white border, border, cropped), poorly composed, no atmosphere, (overexposed, oversaturated, blur, noise:1.5)"
     },
     {
         "name": "hollywood",
-        "prompt": "A cinematic still of {prompt} from a Hollywood blockbuster. Shot on an IMAX camera with a wide anamorphic lens, creating characteristic lens flares and bokeh. The lighting is dramatic and high-contrast, designed to sculpt the subject and create mood. Professional color grading (teal and orange) is applied. The image has a shallow depth of field, high dynamic range, and pristine, tack-sharp focus.",
+        "prompt": "A cinematic still of {prompt} from a Hollywood blockbuster. looks like its Shot on an IMAX camera with a wide anamorphic lens, Professional color grading, high dynamic range, and pristine, tack-sharp focus.",
         "negative_prompt": "amateur, low budget, flat lighting, poorly composed, student film, blurry, grainy, jpeg artifacts, watermark, text, oversaturated, bad cgi, poor special effects, disfigured, deformed."
     },
     {
@@ -61,27 +61,27 @@
     },
     {
         "name": "matte painting",
-        "prompt": "A meticulously crafted, matte painting of {prompt} for a film production. The scene demonstrates a masterful sense of scale, depth, and atmosphere, with a clear distinction between foreground, midground, and background elements. The environment is hyper-detailed and seamlessly integrated. The lighting and composition are of cinematic quality.",
+        "prompt": "matte painting of {prompt} , The scene demonstrates a masterful sense of scale and composition, depth, and atmosphere, The environment is hyper-detailed and seamlessly integrated. The lighting and composition are of cinematic quality.",
         "negative_prompt": "flat, 2d, unconvincing perspective, poorly blended, low resolution, blurry, watermark, signature, text, cartoonish, amateur, generic."
     },
     {
         "name": "glossy anime",
-        "prompt": "image of glossy modern anime art {prompt} . with polished, glossy cel shading. Features crisp,  , and dynamic cel shading with specular highlights.",
+        "prompt": "image of hyper glossy modern anime art {prompt} . with polished, glossy anime shading. Features crisp, and dynamic cel shading with sharp specular highlights.",
         "negative_prompt": "dull, matte finish, poorly shaded, low quality, rough textures, muted colors, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, old style, (overexposed, oversaturated, blur, noise:2)"
     },
     {
         "name": "manga",
-        "prompt": "A sharply detailed black and white manga panel of {prompt}. Features professional, clean line art, high-contrast screentones for shading, and expressive characters true to classic shonen or seinen manga style. The composition is dynamic, with clear action lines and paneling.",
+        "prompt": "A sharply detailed image in style of managa of {prompt}. Features professional, screentones for shading, and expressive, composition is dynamic",
         "negative_prompt": "color, blurry, low contrast, unrefined, amateurish, inconsistent line work, watermark, signature, text, bad anatomy, disfigured, deformed, photo, painting, (overexposed, oversaturated, blur, noise:2)"
     },
     {
         "name": "manhwa",
-        "prompt": "image of full-color manhwa style of {prompt} in a vertical scroll format. Features clean, sharp lines, modern character designs with fashionable attire, and vibrant, cell-shaded coloring. The style is edgy and dynamic, suitable for a webtoon.",
+        "prompt": "image of full-color korean manhwa style of {prompt} , webtoon style art",
         "negative_prompt": "black and white, bland, poorly structured, low detail, imbalanced, watermark, signature, text, bad anatomy, disfigured, deformed, old manga style, painting, (overexposed, oversaturated, blur, noise:2)"
     },
     {
         "name": "pastel anime",
-        "prompt": "image of soft pastel anime {prompt} . gentle, desaturated color palette, airy compositions, and delicate, thin linework. The lighting is soft and diffuse, evoking a dreamy, whimsical, and cute 'kawaii' quality.",
+        "prompt": "image of soft pastel anime {prompt} . gentle color palette, airy compositions, and delicate lighting, relaxing art",
         "negative_prompt": "harsh, oversaturated, dark, low detail, high contrast, thick lines, watermark, signature, text, bad anatomy, disfigured, deformed, scary, sharp, (overexposed, oversaturated, blur, noise:2)"
     },
     {
@@ -144,4 +144,5 @@
         "prompt": "Anime art, crisp digital painterly brushstrokes {prompt} ",
         "negative_prompt": "boring, simple, literal, photograph, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, noise:2)"
     }
+
 ]
