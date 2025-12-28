@@ -1,148 +1,211 @@
 [
     {
-        "name": "Better",
-        "prompt": "High quality {prompt} ",
-        "negative_prompt": "boring, simple, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, underexposed, , noise:1.5)"
+        "name": "better",
+        "prompt": "detailed {prompt} high quality, high details, accurate",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },{
+        "name": "Anime",
+        "prompt": "Anime image of {prompt} amazing composition",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
-        "name": "Photorealistic",
-        "prompt": "An ultra-detailed, hyperrealistic photograph of {prompt}. Shot on a Canon EOS R5 with a 50mm f/1.8 lens, capturing a shallow, natural depth of field. Lighting is a three-point studio setup creating soft, flattering shadows. The image features extreme detail, perfect exposure, and professional cinematic color grading. Every texture is sharp and distinct, from skin pores to fabric weave. Masterful composition follows the rule of thirds.",
-        "negative_prompt": "CGI, 3d render, cartoon, painting, drawing, sketch, blurry, out of focus, overexposed, underexposed, pixelated, cropped, amateur, unrealistic, bad anatomy, mutated hands, extra limbs, disfigured, deformed, jpeg artifacts, watermark, signature, text, username, oversaturated, flat lighting, (overexposed, oversaturated, blur, noise:1.5)"
+        "name": "Digital Art",
+        "prompt": "An expressive digital art {prompt} ,  high detail, well-composed",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
-        "name": "digital art",
-        "prompt": "A stunning digital art masterpiece of {prompt}. Professional digital painting with impeccable brushwork, trending on ArtStation",
-        "negative_prompt": "amateur, sketch, low resolution, jpeg artifacts, blurry, flat colors, messy, crude rendering, lack of depth, poorly detailed, bad composition, watermark, signature, text, bad anatomy, mutated hands, extra fingers, deformed, disfigured, cropped, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "oil painting",
-        "prompt": "A traditional oil painting of {prompt} in the style of the Old Masters. Features thick, impasto brushstrokes creating rich, visible textures on a canvas surface. The lighting is reminiscent of chiaroscuro, with deep shadows and warm highlights. The color palette is deep and saturated, giving it a timeless, classical feel.",
-        "negative_prompt": "digital art, photograph, 3d render, faded colors, smudged, low texture, unrefined, flat, blurry, watermark, signature, text, bad anatomy, deformed, disfigured, poor proportions, cropped, modern, oversaturated, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "wlop art",
-        "prompt": "wlop's soft anime like artwork of {prompt} . style of WLOP. in soft painterly light, with delicate, painterly, and an elegant composition. (Soft highlights, harmonious tones, nutral cool tone, dynamic lighting.)",
-        "negative_prompt": "harsh lines, oversaturated colors, rough textures, amateur, flat shading, cartoon, simple, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, clashing colors, no atmosphere, cropped, (overexposed, cartoon, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "anime",
-        "prompt": "hyper ddetailed anime image of {prompt}, top-tier anime, Dynamic lighting effects, set within a well-composed frame.",
-        "negative_prompt": "blurry, off-model, low detail, amateur, messy lines, inconsistent style, bad proportions, mutated hands, extra limbs, disfigured, western cartoon, 3d render, painting, watermark, signature, text, dull colors, static pose, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "ghibli",
-        "prompt": "image in style of Studio Ghibli's anime, {prompt} in the signature style of Studio Ghibli, hand-painted anime masterpiece and intricate detail",
-        "negative_prompt": "photorealistic, 3d render, CGI, harsh lighting, low detail, empty background, watermark, signature, text, bad anatomy, deformed, disfigured, violent, scary, (overexposed, oversaturated, blur, noise:1.5)"
-    },
-    {
-        "name": "makoto shinkai anime",
-        "prompt": "image from makoto shinkai's anime of {prompt} . in style of Makoto Shinkai anime, environment is hyper-detailed",
-        "negative_prompt": "cgi, 3d, flat, watermark, signature, text, (bad anatomy, mutated hands, disfigured, deformed, multple frame, white border, border, cropped), poorly composed, no atmosphere, (overexposed, oversaturated, blur, noise:1.5)"
-    },
-    {
-        "name": "hollywood",
-        "prompt": "A cinematic still of {prompt} from a Hollywood blockbuster. looks like its Shot on an IMAX camera with a wide anamorphic lens, Professional color grading, high dynamic range, and pristine, tack-sharp focus.",
-        "negative_prompt": "amateur, low budget, flat lighting, poorly composed, student film, blurry, grainy, jpeg artifacts, watermark, text, oversaturated, bad cgi, poor special effects, disfigured, deformed."
-    },
-    {
-        "name": "logo",
-        "prompt": "A minimalist vector logo for {prompt}. The design is clean, modern, and easily scalable. It uses bold geometric shapes and a limited, impactful color palette. The logo is memorable and creates a strong visual identity suitable for branding. Presented on a plain white background.",
-        "negative_prompt": "cluttered, rasterized, pixelated, complex, detailed, illustration, photograph, 3d, gradient, messy, outdated, watermark, signature, text, bad kerning."
-    },
-    {
-        "name": "game icon",
-        "prompt": "A striking and polished game icon for {prompt}. The design is simple, stylized, and easily recognizable at small sizes. It features clean, bold lines, vibrant colors, and a subtle drop shadow to give it depth. The icon is framed within a rounded square.",
-        "negative_prompt": "overly detailed, complex, blurry, pixelated, messy, unbalanced, dull colors, illustration, photograph, text, watermark, bad composition."
-    },
-    {
-        "name": "game concept art",
-        "prompt": "Professional concept art of {prompt} for a AAA video game. The environment is highly detailed, telling a story through its design. The lighting is dynamic and atmospheric, with volumetric fog and god rays creating a dramatic mood. The composition follows the rule of thirds, drawing the eye to an epic-scale focal point. Textures are gritty and realistic.",
-        "negative_prompt": "rough sketch, unpolished, simplistic, amateur, flat shading, blurry, low detail, poorly composed, watermark, signature, text, bad anatomy, deformed, disfigured, bright, cheerful."
-    },
-    {
-        "name": "matte painting",
-        "prompt": "matte painting of {prompt} , The scene demonstrates a masterful sense of scale and composition, depth, and atmosphere, The environment is hyper-detailed and seamlessly integrated. The lighting and composition are of cinematic quality.",
-        "negative_prompt": "flat, 2d, unconvincing perspective, poorly blended, low resolution, blurry, watermark, signature, text, cartoonish, amateur, generic."
-    },
-    {
-        "name": "glossy anime",
-        "prompt": "image of hyper glossy modern anime art {prompt} . with polished, glossy anime shading. Features crisp, and dynamic cel shading with sharp specular highlights.",
-        "negative_prompt": "dull, matte finish, poorly shaded, low quality, rough textures, muted colors, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, old style, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "manga",
-        "prompt": "A sharply detailed image in style of managa of {prompt}. Features professional, screentones for shading, and expressive, composition is dynamic",
-        "negative_prompt": "color, blurry, low contrast, unrefined, amateurish, inconsistent line work, watermark, signature, text, bad anatomy, disfigured, deformed, photo, painting, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "manhwa",
-        "prompt": "image of full-color korean manhwa style of {prompt} , webtoon style art",
-        "negative_prompt": "black and white, bland, poorly structured, low detail, imbalanced, watermark, signature, text, bad anatomy, disfigured, deformed, old manga style, painting, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "pastel anime",
-        "prompt": "image of soft pastel anime {prompt} . gentle color palette, airy compositions, and delicate lighting, relaxing art",
-        "negative_prompt": "harsh, oversaturated, dark, low detail, high contrast, thick lines, watermark, signature, text, bad anatomy, disfigured, deformed, scary, sharp, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "lofi anime",
-        "prompt": "image of detailed lofi anime {prompt} . with a relaxed tones, relaxed, relaxing tones, nostalgic, crisp anime shading, peaceful and calm, embodying the lofi aesthetic, comfort, and tranquility",
-        "negative_prompt": "bright, sharp lines, watermark, signature, text, bad anatomy, disfigured, deformed, action scene, (overexposed, oversaturated, blur, noise, distored hand, distorted figher and face :1.5)"
-    },
-    {
-        "name": "soft oil painting",
-        "prompt": "A soft, gentle oil painting of {prompt} in an impressionistic style. Exudes warmth through delicate color blending, visible but refined brushwork, and a focus on light and atmosphere rather than sharp details",
-        "negative_prompt": "harsh, sharp focus, photorealistic, digital, coarse strokes, muddled colors, watermark, signature, text, bad anatomy, deformed, disfigured, dark, scary, (overexposed, oversaturated, blur, noise:2)"
-    },
-    {
-        "name": "horror",
-        "prompt": "A terrifying psychological horror scene of {prompt}. The atmosphere is nightmarish, captured with cinematic low-key lighting that creates deep, menacing shadows. The composition is unsettling, using Dutch angles and negative space to build dread. Hyperdetailed textures reveal decay and grime. The color palette is desaturated and eerie.",
-        "negative_prompt": "bright, cheerful, friendly, cute, cartoon, funny, safe, welcoming, well-lit, watermark, signature, text, bad anatomy, not scary, oversaturated, mutated hands, extra limbs, disfigured, deformed."
-    },
-    {
-        "name": "dslr photography",
-        "prompt": "An ultra high-definition DSLR photograph of {prompt}, shot with a prime lens for exquisite clarity and creamy bokeh. The lighting is natural and flattering, highlighting lifelike colors and textures. The focus is tack-sharp on the subject.",
-        "negative_prompt": "blurry, out of focus, grainy, motion blur, poorly composed, low resolution, watermark, signature, text, bad anatomy, disfigured, deformed, flat lighting, phone camera quality."
-    },
-    {
-        "name": "pov",
-        "prompt": "A dynamic point-of-view photograph of {prompt}. The perspective immerses the viewer directly into the scene, showing hands or arms interacting with the environment. The image uses a wide-angle lens to create a sense of presence and depth, with realistic motion blur on the periphery.",
-        "negative_prompt": "static, third-person view, flat, poorly framed, detached, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, unrealistic."
+        "name": "Makoto Shinkai's Anime",
+        "prompt": "Makoto shinkai anime style {prompt} . modern anime style, rim light, shading with glow and glare details, modern anime, intricate details",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
         "name": "Retro Anime",
-        "prompt": "A 90's anime scene of {prompt} in a retro 1990s style. Features the characteristic cel-shaded animation",
-        "negative_prompt": "modern anime, 4k, crisp, sharp lines, 3d render, photorealistic, watermark, signature, text, bad anatomy, mutated hands, disfigured, deformed, realistic, (overexposed, oversaturated, blur, noise:2)"
+        "prompt": "old style anime aesthetic style {prompt} retro anime style, clean shading",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
-        "name": "junji ito manga",
-        "prompt": "An eerie black and white manga panel of {prompt} in the style of Junji Ito. Features disturbing body horror elements, intricate and obsessive cross-hatching, and intense, wide-eyed expressions that convey pure terror. The composition creates a sense of inescapable dread.",
-        "negative_prompt": "color, cute, friendly, safe, simple, low detail, reassuring, sketch, watermark, signature, text, bad anatomy, not scary, painting."
+        "name": "Modern Anime",
+        "prompt": "Modern anime style, high definition {prompt} modern anime anime, detailed shading, good colors ",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
-        "name": "photography horror",
-        "prompt": "A spine-chilling found-footage style photograph of {prompt}. The image is dark, grainy, and slightly out of focus, lit only by a harsh camera flash. An eerie, unnerving figure or detail lurks in the deep shadows. The composition is chaotic and unsettling.",
-        "negative_prompt": "studio lighting, well-lit, clear, in focus, professional, staged, safe, friendly, cute, watermark, signature, text, not scary, oversaturated."
+        "name": "Slice of Life Anime",
+        "prompt": "relaxing slice of life anime art, relaxing anime colors {prompt} detailed anime, cozy and relaxing atmosphere,",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
-        "name": "serene art",
-        "prompt": "A calm and soothing artwork depicting {prompt}. The style is minimalist and characterized by a soft, harmonious color palette, gentle gradients, and subtle textures. The composition is balanced and uncluttered, evoking a deep sense of tranquility and peace.",
-        "negative_prompt": "chaotic, cluttered, harsh colors, high contrast, dark, scary, watermark, signature, text, bad anatomy, disfigured, deformed, oversaturated, (overexposed, oversaturated, blur, noise:2)"
+        "name": "Photorealistic",
+        "prompt": "photorealism style hyperrealistic photograph of {prompt} , natural lighting ",
+        "negative_prompt": "anime, cartoon, painting, illustration, 2d, flat, unrealistic, abstract, drawing, sketch, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands"
     },
     {
-        "name": "serene anime",
-        "prompt": "peaceful and serene anime art of {prompt}. Features a gentle, pastel color palette, soft lighting, and a relaxed, harmonious atmosphere. The scene often depicts a quiet, slice-of-life moment in a beautiful, idyllic setting.",
-        "negative_prompt": "action, violence, harsh colors, low detail, conflicting tones, dark, scary, watermark, signature, text, bad anatomy, disfigured, deformed, oversaturated, (overexposed, oversaturated, blur, noise:2)"
+        "name": "WLOP's Painting",
+        "prompt": "style of wlop, painterly, ethereal, semi-realistic, soft brushstrokes, soft light and soft color, digital painting {prompt} wlop style, low saturation",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
-        "name": "artistic",
-        "prompt": "artistic portrayal of {prompt}. blend of different textures and mediums. It is a bold, imaginative, and thought-provoking piece.",
-        "negative_prompt": "conventional, realistic, boring, simple, literal, photograph, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, noise:2)"
+        "name": "Oil Painting",
+        "prompt": "oil on canvas, thick paint, impasto, visible brushstrokes, rich colors, deep shadows, traditional art, classical, textured {prompt} oil painting style",
+        "negative_prompt": "digital, 3d, vector, smooth, flat, photorealistic, anime, drawing, sketch, shiny, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, bad hands"
     },
     {
         "name": "Painterly Anime",
-        "prompt": "Anime art, crisp digital painterly brushstrokes {prompt} ",
-        "negative_prompt": "boring, simple, literal, photograph, low creativity, messy, watermark, signature, text, bad anatomy, disfigured, deformed, (overexposed, oversaturated, blur, noise:2)"
+        "prompt": "painterly anime style,  brush painterly texture {prompt} painterly anime style",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Vivid Anime",
+        "prompt": "vibrant anime with vivid colors, high contrast, crisp visuals {prompt} vivid anime style, saturated colors, deep color, sharp details",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "LoFi Anime",
+        "prompt": "relaxe lo-fi anime style, {prompt} relaxing style",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Pastel Anime",
+        "prompt": "modern pastel anime, clean visuals {prompt} pastel anime style with clean shading, sharp highlights and soft painterly cel-shaded aesthetic",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Analog Horror",
+        "prompt": "photo of analog horror, vhs artifacts, low fidelity, high noise, film grain, distorted, dark, grainy, eerie atmosphere, unsettling, found footage style image of {prompt} analog horror style, natural lighting",
+        "negative_prompt": "clean, digital, clear, sharp, modern, colorful, bright, peaceful, cute, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, bad anatomy, watermark, signature, cut off, draft, bad hands"
+    },
+    {
+        "name": "Manga",
+        "prompt": "monochrome, black and white color, high contrast, screentone patterns, stippling textures, dot patterns, detailed texture work {prompt} manga style",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Glossy Anime",
+        "prompt": "anime with glossy and reflective shading {prompt} . glossy anime style, reflective shading",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Anime Landscape",
+        "prompt": "expansive feel, atmospheric depth, painterly, beautiful lighting, vibrant color palette, high detail, environmental art aesthetic {prompt} anime landscape style",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Complex multi shaded Anime",
+        "prompt": "anime with complex shading, detailed anime complex shading, rim highlight, intricate details in the shading and lighting {prompt} complex shaded anime style",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, flat shading, simple shading, 2-tone, cel shading"
+    },
+    {
+        "name": "ghibli anime",
+        "prompt": "anime with studio ghibli style {prompt} ghibli style, detailed backgrounds, Hayao Miyazaki style, Detail",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, 3d, cgi, photorealistic, modern, digital, sharp, neon"
+    },
+    {
+        "name": "matte painting",
+        "prompt": "matte painting, digital painting, photorealistic textures, seamless integration, cinematic, epic scale, atmospheric depth, environmental art, hyperrealistic {prompt} matte painting style",
+        "negative_prompt": "cartoon, anime, 2d, flat, simple, abstract, sketch, drawing, stylized, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, bad hands"
+    },
+    {
+        "name": "Greg Rutkowski Painting",
+        "prompt": "greg rutkowski style digital painting, fantasy art, epic, detailed art {prompt} rutkowski style",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Claude Monet",
+        "prompt": "impressionism, style of claude monet, visible brushstrokes, impasto, focus on light, vibrant colors, outdoor atmosphere, painterly, traditional art {prompt} monet style",
+        "negative_prompt": "photorealistic, digital, 3d, smooth, sharp focus, defined edges, anime, sketch, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, bad hands"
+    },
+    {
+        "name": "Junji Ito Manga",
+        "prompt": "photo of manga art of black and white style of junji ito manga, horror, monochrome, black and white, high contrast, unsettling atmosphere, body horror aesthetic, intricate texture work {prompt} junji ito style",
+        "negative_prompt": "color, painting, 3d, cute, peaceful, soft, digital art, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, bad hands"
+    },
+    {
+        "name": "Webtoons",
+        "prompt": "webtoon style, vertical format aesthetic, digital, clean visuals, vibrant colors, manhwa aesthetic {prompt} webtoon style",
+        "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
+    },
+    {
+        "name": "Hollywood",
+        "prompt": "cinematic, high production value, dramatic lighting, photorealistic, high detail, movie quality, film still, epic, polished, professional {prompt} hollywood cinematic style",
+        "negative_prompt": "2d, drawing, painting, sketch, amateur, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, bad hands"
+    },
+    {
+        "name": "Cyberpunk",
+        "prompt": "cyberpunk aesthetic, neon lighting, high contrast, futuristic, dystopian, gritty, dark atmosphere, reflective surfaces, high-tech, digital {prompt} cyberpunk style",
+        "negative_prompt": "natural, fantasy, medieval, bright, clean, pastel, cute, peaceful, day, ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, bad hands"
+    },
+    {
+        "name": "Blame Anime",
+        "prompt": "tsutomu nihei style, blame! aesthetic, dark, gritty, monochrome tones, high contrast, industrial, dystopian, atmospheric, heavy shadows, textured, noise {prompt} blame style",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, colorful, bright, pastel, cute, clean, smooth"
+    },
+    {
+        "name": "Cyberpunk Anime",
+        "prompt": "cyberpunk anime aesthetic, futuristic, high-tech, dynamic lighting, detailed, vibrant colors {prompt} cyberpunk anime style",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, natural, medieval, fantasy, pastel, bright, clean, day"
+    },
+    {
+        "name": "Prehistoric",
+        "prompt": "prehistoric aesthetic, primal, raw textures, natural materials, rock, stone, fur, earthy tones, muted colors, ancient, rugged {prompt} prehistoric style",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, modern, futuristic, cyberpunk, plastic, metal, smooth, polished, neon, clean"
+    },
+    {
+        "name": "Fantasy",
+        "prompt": "fantasy aesthetic, magical, enchanted, epic, mythical, atmospheric lighting, detailed, otherworldly, painterly, imaginative {prompt} fantasy style",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, modern, mundane, realistic, sci-fi, cyberpunk"
+    },
+    {
+        "name": "Studio",
+        "prompt": "studio lighting, clean background, controlled environment, professional, high quality, sharp focus, simple, minimalist, high detail, product shot aesthetic {prompt} studio style",
+        "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge, complex background"
+    },
+    {
+        "name": "Photographic",
+        "prompt": "natural camera photograph of {prompt} , sharp focus, high detail, well-composed, good contrast, professional photography, natural lighting",
+        "negative_prompt": "anime, drawing,  tiling, cgi, cartoon, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge, complex background"
+    },
+    {
+        "name": "illustration",
+        "prompt": "illustration of {prompt} , high detail, well-composed, good contrast",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Anime Wallpaper",
+        "prompt": " deep color anime wallpaper, crisp anime art of {prompt} , high detail, well-composed, good contrast, glow, glare, rim light, vibrant colors, sharp, glow",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Realistic ",
+        "prompt": " highly detailed photograph of {prompt}, natural lighting, photorealistic, in real life, contrast,focus, 8k,  lighting,, hyperrealistic textures, fine detail, realistic grain",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Digital Realism ",
+        "prompt": " digital realism {prompt},  subsurface scattering lighting,  realism digital art style, realistic digital art ",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Webtoons Manhwa",
+        "prompt": " modern Korean webtoons manhwa {prompt}, Subsurface Scattering, clean shading, high detail, vibrant colors, sharp details",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Smooth Shading Anime",
+        "prompt": " Smooth shading anime {prompt}, smooth clean shading, high detail, vibrant colors, details, smooth shading, gloss, smooth gradian shading, smooth anime",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Painting",
+        "prompt": " detailed painting of {prompt} details, painterly texture",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Digital Painting",
+        "prompt": " digital detailed painting of {prompt} details",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
+    },
+    {
+        "name": "Hdr Digital Art",
+        "prompt": "HDR Digital Art {prompt} details HDR lighting, high dynamic range, vivid colors, sharp details",
+        "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
     }
-
 ]
