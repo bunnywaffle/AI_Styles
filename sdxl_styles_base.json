@@ -1,16 +1,16 @@
 [
     {
         "name": "better",
-        "prompt": "detailed {prompt} high quality, high details, accurate",
+        "prompt": "8k, highest quality, detail filled, hyper detailed {prompt} high quality, high details, intricate details",
         "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },{
         "name": "Anime",
-        "prompt": "Anime image of {prompt} amazing composition",
+        "prompt": "detailed Anime style of {prompt} amazing composition",
         "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
         "name": "Digital Art",
-        "prompt": "An expressive digital art {prompt} ,  high detail, well-composed",
+        "prompt": "artstation quality, creative detailed digital art {prompt} high detail, well-composed creative, masterpiece, intricate details, 8k quality",
         "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
         "name": "Painterly Anime",
-        "prompt": "painterly anime style,  brush painterly texture {prompt} painterly anime style",
+        "prompt": "anime style with painterly looking texture {prompt} is made from painterly texture, and painterly brush strokes painterly anime style, anime shading with painterly pattern texture",
         "negative_prompt": "cgi, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, outdoor, natural lighting, chaotic, grunge"
     },
     {
@@ -90,7 +90,7 @@
     },
     {
         "name": "Complex multi shaded Anime",
-        "prompt": "anime with complex shading, detailed anime complex shading, rim highlight, intricate details in the shading and lighting {prompt} complex shaded anime style",
+        "prompt": "8k high resolution anime with complex detailed shading {prompt} complex shaded anime style",
         "negative_prompt": "ugly, tiling, poorly drawn, out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands, poorly drawn face, fused fingers, malformed limbs, mutated hands, mutated, gross, dismembered, bad proportions, extra legs, flat shading, simple shading, 2-tone, cel shading"
     },
     {
@@ -180,7 +180,7 @@
     },
     {
         "name": "Digital Realism ",
-        "prompt": " digital realism {prompt},  subsurface scattering lighting,  realism digital art style, realistic digital art ",
+        "prompt": " digital realism, mix of realism and digital art {prompt},  subsurface scattering lighting,  realism digital art style, realistic digital art ",
         "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
     },
     {
@@ -195,7 +195,7 @@
     },
     {
         "name": "Painting",
-        "prompt": " detailed painting of {prompt} details, painterly texture",
+        "prompt": " painterly texture detailed painting of {prompt} details, painterly texture",
         "negative_prompt": "out of frame, disfigured, deformed, blurry, bad anatomy, blurred, watermark, grainy, signature, cut off, draft, low quality, worst quality, jpeg artifacts, bad hands, extra fingers, fewest fingers, missing fingers, extra limbs, missing limbs, poorly drawn hands"
     },
     {
